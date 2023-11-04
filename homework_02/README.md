@@ -8,7 +8,7 @@ Read the data using the read_html method from the table "Birth rate in the regio
 
 It is necessary to perform:
 
-* Output the first rows of the table using the head method
+* Show first rows of the table using the head method
 * Define the number of rows and columns in the dataframe (shape attribute)
 * In the table, replace the value "—" with the value NaN
 * Define the types of all columns using dataframe.dtypes
