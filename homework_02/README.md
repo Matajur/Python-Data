@@ -1,6 +1,6 @@
-# Homework 02
+# Homework: Module 2 - Exploratory data analysis
 
-Don't worry if you don't get everything right away. The work of any data scientist is closely related to search and research, so it is very important to learn how to find the information you need and adapt it to your needs. Also, you can contact the mentor with any questions.
+The work of any data scientist is closely related to search and research, so it is very important to learn how to find the information you need and adapt it to your needs.
 
 ## Part One: Getting to Know Pandas.
 
@@ -8,14 +8,14 @@ Read the data using the read_html method from the table "Birth rate in the regio
 
 It is necessary to perform:
 
-* Show first rows of the table using the head method
-* Define the number of rows and columns in the dataframe (shape attribute)
+* Show head of the table
+* Define the number of rows and columns in the dataframe
 * In the table, replace the value "—" with the value NaN
-* Define the types of all columns using dataframe.dtypes
-* Replace non-numeric column types with numeric ones. The hint is the columns where the symbol "—" was
-* Calculate the percentage of blanks in each column (use isnull and sum methods)
+* Define the types of all columns
+* Replace non-numeric column types with numeric ones
+* Calculate the percentage of blanks in each column
 * Delete the countrywide data from the table, the last row of the table
-* Replace missing data in columns with the average values of those columns (fillna method)
+* Replace missing data in columns with the average values of those columns
 * Get a list of regions where the birth rate in 2019 was higher than the average for Ukraine
 * Which region had the highest birth rate in 2014?
 * Construct a bar chart of birth rates by region in 2019
@@ -28,21 +28,21 @@ Analyze the 2017_jun_final.csv file (https://drive.google.com/file/d/1JMYqXipZpz
 
 It is necessary to perform:
 
-* Read the file 2017_jun_final.csv using the read_csv method
-* Read the resulting table using the head method
-* Determine the size of the table using the shape method
-* Define the types of all columns using dataframe.dtypes
-* Calculate the percentage of blanks in each column (use isnull and sum methods)
+* Read the file 2017_jun_final.csv
+* Read head of the resulting table
+* Determine the size of the table
+* Define the types of all columns
+* Calculate the percentage of blanks in each column
 * Remove all blank columns except the "Programming Language" column
 * Count again what proportion of gaps are in each column and make sure that only the column "Language.programming" remains
-* Delete all rows in the source table using the dropna method
-* Define the new size of the table using the shape method
+* Delete all rows in the source table
+* Define the new size of the table
 * Create a new python_data table, which will contain only rows with specialists who specified the Python programming language
-* Determine the size of the python_data table using the shape method
-* Using the groupby method, group by the "Position" column
-* Create a new DataFrame where for the data grouped by the Position column, aggregate the data using the agg method and find the min and max values in the Salary.monthly column
-* Create a function fill_avg_salary that will return the average salary for a month. Use it for the apply method and create a new column "avg"
-* Create descriptive statistics using the describe method for the new column.
+* Determine the size of the python_data table
+* Group by the "Position" column
+* Create a new DataFrame where for the data grouped by the Position column, aggregate the data and find the min and max values in the Salary.monthly column
+* Create a function fill_avg_salary that will return the average salary for a month. Use it to create a new column "avg"
+* Create descriptive statistics for the new column.
 * Save the resulting table in a CSV file
 
 The work is submitted as a Jupyter file Hw2.2.ipynb
@@ -51,7 +51,7 @@ The work is submitted as a Jupyter file Hw2.2.ipynb
 
 In this part of the homework, we will delve further into the pandas library and look at more advanced features.
 
-For this exercise, we use data from the Top 50 best-selling books on Amazon over 11 years (from 2009 to 2019). The dataset is publicly available on Kaggle.com (https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019). Download the csv file from the link and move it to the same directory as your work laptop (for convenience). After that, go to the task
+For this exercise, we use data from the Top 50 best-selling books on Amazon over 11 years (from 2009 to 2019). The dataset is publicly available on Kaggle.com (https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019). Download the csv file from the link and move it to the same directory as your work folder (for convenience). After that, go to the task.
 
 To complete this part of the homework, you will not only need to write the code, but also answer the accompanying questions. Where you see the answer in bold: you will need to insert the question into the file and the answer to it.
 
