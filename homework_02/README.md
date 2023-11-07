@@ -88,12 +88,12 @@ df.columns = ['name', 'author', 'user_rating', 'reviews', 'price', 'year', 'genr
 
 ### Primary data analysis
 
-* Check if all rows have enough data: output the number of gaps (na) in each of the columns (use the isna and sum functions)
+* Check if all rows have enough data: output the number of gaps (na) in each of the columns
 * Answer: Are there gaps in any variables? (Yes No)
-* Check what are the unique values in the genre column (use the unique function)
+* Check what are the unique values in the genre column
 * Answer: What are the unique genres?
-* Now look at the price distribution: make a chart (use kind='hist')
-* Determine what our maximum, minimum, average, median price is (use the max, min, mean, median functions)
+* Now look at the price distribution: make a histogram
+* Determine what our maximum, minimum, average, median price is
 * Answer: Maximum price?
 * Answer: Minimum price?
 * Answer: Average price?
@@ -101,25 +101,25 @@ df.columns = ['name', 'author', 'user_rating', 'reviews', 'price', 'year', 'genr
 
 ### Search and sort data
 
-* Answer: What is the highest rating in the dataset? Answer:
-* Answer: How many books have this rating? Answer:
-* Answer: Which book has the most reviews? Answer:
-* Answer: Of the books that made it to the Top 50 in 2015, which book is the most expensive (you can use an intermediate dataframe)? Answer:
-* Answer: How many Fiction books were in the Top 50 in 2010 (use &)? Answer:
-* Answer: How many books rated 4.9 were ranked in 2010 and 2011 (use | or the isin function)? Answer:
-* And finally, let's sort by increasing price all the books that made the ranking in 2015 and cost less than $8 (use the sort_values function).
-* Answer: Which book is last in the sorted list? Answer:
+* Answer: What is the highest rating in the dataset?
+* Answer: How many books have this rating?
+* Answer: Which book has the most reviews?
+* Answer: Of the books that made it to the Top 50 in 2015, which book is the most expensive?
+* Answer: How many Fiction books were in the Top 50 in 2010?
+* Answer: How many books rated 4.9 were ranked in 2010 and 2011?
+* Sort by increasing price all the books that made the ranking in 2015 and cost less than $8
+* Answer: Which book is last in the sorted list?
 
 ### Aggregation of data and connection of tables
 
 The last section of this homework includes more advanced features. But don't worry, pandas makes all operations simple and clear.
 
-* First, let's look at the maximum and minimum prices for each of the genres (use the groupby and agg functions, to calculate the minimum and maximum values, use max and min). Do not take all the columns, select only the ones you need
-* Answer: The maximum price for the genre Fiction: Answer
-* Answer: Minimum price for Fiction genre: Answer
-* Answer: Maximum price for Non Fiction genre: Answer
-* Answer: Minimum price for Non Fiction genre: Answer
-* Now create a new dataframe that will hold the number of books for each author (use the groupby and agg functions, use count to count the number). Do not take all the columns, select only the ones you need
+* First, let's look at the maximum and minimum prices for each of the genres. Do not take all the columns, select only the ones you need
+* Answer: The maximum price for the genre Fiction
+* Answer: Minimum price for Fiction genre
+* Answer: Maximum price for Non Fiction genre
+* Answer: Minimum price for Non Fiction genre
+* Now create a new dataframe that will hold the number of books for each author. Do not take all the columns, select only the ones you need
 * Answer: What is the size of the table? Answer:
 * Answer: Which author has the most books? Answer:
 * Answer: How many books by this author? Answer:
