@@ -120,14 +120,14 @@ The last section of this homework includes more advanced features. But don't wor
 * Answer: Maximum price for Non Fiction genre
 * Answer: Minimum price for Non Fiction genre
 * Now create a new dataframe that will hold the number of books for each author. Do not take all the columns, select only the ones you need
-* Answer: What is the size of the table? Answer:
-* Answer: Which author has the most books? Answer:
-* Answer: How many books by this author? Answer:
+* Answer: What is the size of the table?
+* Answer: Which author has the most books?
+* Answer: How many books by this author?
 * Now create a second dataframe that will hold the average rating for each author (use the groupby and agg functions, use mean to calculate the average). Do not take all the columns, select only the ones you need
-* Answer: Which author has the lowest average rating? Answer:
-* Answer: What is the average rating of this author? Answer:
-* Concatenate the last two dataframes so that the number of books and the average rating are visible for each author (Use the concat function with axis=1). Save the result to a variable
-* Sort the dataframe by increasing number of books and increasing rating (use the sort_values function)
+* Answer: Which author has the lowest average rating?
+* Answer: What is the average rating of this author?
+* Concatenate the last two dataframes so that the number of books and the average rating are visible for each author. Save the result to a variable
+* Sort the dataframe by increasing number of books and increasing rating
 * Answer: Which author is first on the list?
 
 The work is submitted as a Jupyter file Hw2.3.ipynb
