@@ -1,4 +1,4 @@
-# Homework: Module 6 - Learning without a teacher
+# Homework: Module 6 - Unsupervised learning
 
 The proposed tasks must be completed in the form of one jupyter notebook.
 

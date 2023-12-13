@@ -1,4 +1,4 @@
-# Homework: Module 5 - Other learning algorithms with a teacher
+# Homework: Module 5 - Other supervised learning algorithms
 
 In the homework for this module, you will practice doing a test task for employment. According to the accelerometer data from the mobile phone, it is necessary to classify what kind of activity a person is engaged in: walking, standing, running or climbing stairs. You can find the dataset by following the link (https://drive.google.com/file/d/1nzrtQpfaHL0OgJ_eXzA7VuEj7XotrSWO/view).
 
