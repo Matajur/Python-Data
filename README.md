@@ -10,7 +10,7 @@ Repository of homework and team work of the Data Science block of the Python Dev
 * Module 6 - Unsupervised learning
 * Module 7 - Recommender systems
 * Module 8 - Deep Learning
-* Module 9 - Selection of ML hyperparameters
+* Module 9 - Selection of neural network hyperparameters
 * Module 10 - Convolutional neural networks
 * Module 11 - Recurrent neural networks
 * Module 12 - Basics of NLP

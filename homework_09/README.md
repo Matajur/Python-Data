@@ -1,4 +1,4 @@
-# Homework: Module 9 - Selection of ML hyperparameters
+# Homework: Module 9 - Selection of neural network hyperparameters
 
 As a homework assignment, you are asked to create a neural network using Keras engines that will classify products from the fasion_mnist dataset (https://www.tensorflow.org/datasets/catalog/fashion_mnist).
 
